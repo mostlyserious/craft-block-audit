@@ -1,12 +1,12 @@
 {
     "name": "mostlyserious/craft-block-audit",
-    "description": "Look for duplicate Neo or Matrix blocks in an entry.",
+    "description": "Look for duplicate Neo or Matrix blocks across site.",
     "type": "craft-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Cornelius Ukena",
-            "email": "cornelius@mostlyserious.io"
+            "name": "Mostly Serious",
+            "homepage": "https://www.mostlyserious.io"
         }
     ],
     "autoload": {
