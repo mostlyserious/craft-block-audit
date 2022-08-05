@@ -1,0 +1,27 @@
+{
+  "src/resources/src/img/spinner.svg": {
+    "file": "assets/spinner.ce09ad10.js",
+    "src": "src/resources/src/img/spinner.svg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/spinner.a1cd31d6.svg"
+    ]
+  },
+  "src/resources/src/img/clone.svg": {
+    "file": "assets/clone.430bcc02.js",
+    "src": "src/resources/src/img/clone.svg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/clone.036d93d5.svg"
+    ]
+  },
+  "src/resources/src/js/main.js": {
+    "file": "assets/main.885bb44d.js",
+    "src": "src/resources/src/js/main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/resources/src/img/clone.svg",
+      "src/resources/src/img/spinner.svg"
+    ]
+  }
+}
