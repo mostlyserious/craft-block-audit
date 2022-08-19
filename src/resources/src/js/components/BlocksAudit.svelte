@@ -22,11 +22,11 @@
             </span>
         {/if}
     </div>
-{:else}
-    <button type="button" class="btn submit" on:click={fetchDupes}>
-        Audit Blocks
-    </button>
 {/if}
+
+<button type="button" class="btn submit" on:click={fetchDupes}>
+    Audit Blocks
+</button>
 
 <script>
     import markup from '../modules/markup';
@@ -38,6 +38,8 @@
 
     function fetchDupes() {
         fetched = true;
+        loaded = false;
+        entries = [];
 
         fetch('/admin/actions/block-audit/run')
             .then(res => res.json())
@@ -58,7 +60,7 @@
     }
 
     .meta {
-        @apply p-4 rounded;
+        @apply p-4 mb-6 rounded;
         background-color: #F3F7FC;
         box-shadow: 0 0 0 1px #cdd8e4, 0 2px 12px rgb(205 216 228 / 50%);
 
